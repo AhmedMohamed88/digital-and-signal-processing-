@@ -1,0 +1,7 @@
+step1 load data file from pc and skip first 3 rows (data ontains 2 columns one for samples (n) and one for amplitude)
+step2 find min and max of amplitude column
+step 3 ask user to choose number of levels(2 power number of bits) or number of  bits =(log base 2 (levels))
+step4 find delta using formula of delta which is (max-min)/levels
+step5 make ranges [min,min+delta]
+step6 calculate midpoint ((startrange + endrange)/2)
+step 7 quantize and encode by matching the encode to suited intervals
